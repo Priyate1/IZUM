@@ -11,7 +11,7 @@ function Drawer({ onClose, items = [] }) {
           <div className='items'>
               {items.map((obj) => (
           <div className="cartItem d-flex align-center mb-20">
-              <div style={{ backgroundImage:'url(${obj.imageUrl})' }}
+              <div style={{ backgroundImage:`url(${obj.imageUrl})` }}
               className="cartItemImg"
               ></div>
           <img
